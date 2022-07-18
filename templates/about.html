@@ -1,0 +1,21 @@
+{% extends 'about.html' %}
+
+{% block content %}
+
+    <center class="fish-image">
+     <div class="text_bottom">
+                <h2>FISH BASE : </h2>
+        <h3>FISH DIMENSION :</h3>
+     </div>
+
+
+        <img id="picture" src="data:image/Jpeg;base64,{{ img_data}}">
+
+
+<!--        <image src = "{{ url_for('static', filename='output/image.jpg')}}"&ndash;&gt;-->
+<!--        <image src="{{url_for('static',filename = 'result/image.jpg')}}" >-->
+<!--        <img src="../static/output/image.jpg"/>-->
+            <br><br>
+        <a href='/' class="link_tag">Go back to home page</a>
+        </center>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <section class="fish-image">
+          <div class="outer_local_box">
+        <div class="box_middle">
+            <h1>File Upload</h1>
+        <form method="POST" action="" enctype="multipart/form-data">
+            <div class="mb-3">
+            <input class="form-control" type="file" name="file">
+            </div>
+
+            <div class="submit_btn"><input type="submit" value="Submit"></div>
+        </form>
+            {% for file in files %}
+        <img src="{{ url_for('upload', filename=file) }}" style="width: 64px">
+    {% endfor %}
+        </div>
+</div>
+    </section>
+{% endblock %}

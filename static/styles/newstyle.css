@@ -1,0 +1,108 @@
+.nav-container {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 1%;
+}
+
+.logo img {
+width: 100px;
+
+}
+
+@media (min-width: 768px) {
+.logo img {
+width: 150px;
+}
+}
+.brand-heading h3 {
+font-family:'Roboto Slab', serif;
+color: white;
+}
+
+ul {
+display: flex;
+}
+
+li {
+list-style: none;
+}
+
+
+.menu {
+text-decoration: none;
+color: white;
+}
+
+.img-fluid {
+opacity: 0.5;
+
+}
+
+body {
+margin:0;
+padding: 0;
+overflow: hidden;
+
+}
+section
+{
+
+background:url(480.jpg);
+background-size: auto;
+background-repeat:no-repeat;
+height: 100vh;
+opacity: 0.9;
+align-items: center;
+
+
+}
+.box
+{
+position: relative;
+max-width: 200px;
+padding: 50px;
+background-color: rgb(159, 210, 255);
+
+}
+.box h2
+{
+margin: 0 0 20px;
+padding: 0;
+font-size: 48px;
+text-transform: uppercase;
+colour: #2a1d30;
+}
+.menu-items ul{padding:0px; margin:8px 0;}
+.menu-items ul li{display:inline-block;}
+.menu-items ul li a{display:inline-block;    padding: 0 0 0 0px;    margin: 0 0px 0 24px;}
+.menu-items ul li a i{display:inline-block;     font-size: 21px;    display: inline-block;    vertical-align: middle;
+margin: 0 9px 0 0px;}
+.menu-items ul li a:hover{    text-decoration: none; color:#fff;}
+.box_middle{margin:0 auto; width:500px;     background-color: rgb(255 255 255 / 82%);    padding: 29px 30px;    border-radius: 7px;}
+.outer_local_box{padding-top:10%;}
+.box_middle h1{font-size:22px; color:#000;margin: 0 0 21px 0;}
+.submit_btn{display:inline-block; width:100%; text-align:center;}
+.submit_btn [type=submit]{background:red; height:40px; padding:0 20px; font-size:17px; color:#fff;border:1px solid red;font-weight: bold;
+text-transform: uppercase;    border-radius: 6px; margin:8px 0 0 0;}
+.fixed_outer{display:inline-block; width:100%; top:0px; left:0px;z-index: 2;background:#1a508e;  }
+.link_tag{color:#1a508e;text-decoration: none;}
+
+.fish-image h2{font-size:20px; margin:0px;}
+.fish-image h3{font-size:20px;}
+.text_bottom{display:inline-block; width:100%; padding:30px 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
