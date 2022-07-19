@@ -20,7 +20,7 @@ def validate_image(stream):
         return None
     return '.' + (format if format != 'jpeg' else 'jpg')
 
-@app.route('/')
+@app.route('/', methods=['POST'])
 def index():
     files = os.listdir(app.config['UPLOAD_PATH'])
     return render_template('index.html', files=files)
